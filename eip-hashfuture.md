@@ -1,6 +1,6 @@
 ---
 eip: <to be assigned>
-title: HashFuture Dividable Asset Token Contract
+title: Asset Token Standard
 author: Contract <contract@hashfuture.top>
 discussions-to: <URL>
 status: Draft
@@ -31,7 +31,7 @@ Holders of small tokens can take dividents of the corresponding realworld asset 
 <!--The motivation is critical for EIPs that want to change the Ethereum protocol. It should clearly explain why the existing protocol specification is inadequate to address the problem that the EIP solves. EIP submissions without sufficient motivation may be rejected outright.-->
 This standard extracts the unique verifiable identification and the consistent rights agreement of the realworld asset, including ownership, use rights, income rights, etc., and generates the standardized Big Token in the form of smart contract automatically, thus realizing the decentralized property verification for more realworld assets. This standard will endorse Ethereum with greater value for the real world.
 The big token represents a kind of holistic property. Holder of the big token can split the token into a designated number of small tokens. The profit from the asset appreciation will be distributed to the holders of small tokens. Meanwhile, holder of all the small tokens can merge into the big token to exchange the realword asset. Through this process, we can achieve the free conversion of primary assets and secondary assets, greatly reducing transaction costs and promoting the efficient of assets circulation.
-The design of the Asset Token Standard can avoid the big shareholders from doing evil. In reality, the major shareholders may encroach on the dividend income of the minority shareholders through the majority rule. On the other hand, it can also prevent small shareholders from extorting the holder who want to collect all the small tokens to exchange the real asset, according to the the ‘collectAllForce’ function. In this way, Situation described by “property is only another name for monopoly” is refrained.
+The design of the Asset Token Standard can avoid the big shareholders from doing evil. In reality, the major shareholders may encroach on the dividend income of the minority shareholders through the majority rule. On the other hand, it can also prevent small shareholders from extorting the holder who want to collect all the small tokens to exchange the real asset, according to the the ‘collectAllForce’ function. In this way, Situation described by “property is only another name for monopoly” is refrained. Reference: Posner, Eric A., and E. Glen Weyl. "Property Is Only Another Name for Monopoly." Journal of Legal Analysis 9.1 (2017): 51-123. 
 
 ## Specification
 <!--The technical specification should describe the syntax and semantics of any new feature. The specification should be detailed enough to allow competing, interoperable implementations for any of the current Ethereum platforms (go-ethereum, parity, cpp-ethereum, ethereumj, ethereumjs, and [others](https://github.com/ethereum/wiki/wiki/Clients)).-->
